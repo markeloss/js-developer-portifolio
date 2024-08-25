@@ -22,20 +22,20 @@
 <body>
     <main class="main">
     <header class="header">
-      <img src="assets/img/me.jpg" alt="Foto do Erique" class="photo">
+      <img src="assets/img/me.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
 
       <h1 class="title">
-        Olá, eu sou Erique Pinon
+        Olá, eu sou <span id="profile.name">Carregando...</span>
       </h1>
 
       <div class="information">
-        <p class="job">Junior developer</p>
-        <p class="location">Belém - BR </p>
+        <p class="job" id="profile.job">Carregando..</p>
+        <p class="location" id="profile.location">Carregando..</p>
         <p class="phone">
-          <a href="tel:(91) 9 81531959" target="_blank">(91)981531959</a>
+          <a href="tel:(91) 9 81531959" id="profile.phone">Carregando...</a>
         </p>
         <p class="email">
-          <a href="mailto:eriquepinon@gmail.com">eriquepinon@gmail.com</a>
+          <a href="mailto:eriquepinon@gmail.com" id="profile.email">eriquepinon@gmail.com</a>
         </p>
       </div>
     </header>
@@ -135,5 +135,7 @@
   </main>
 
   <script src="./assets/js/acordeon.js"></script>
+  <script src="./assets/js/api.js"></script>
+  <script src="./assets/js/main.js"></script>
   </body>
   </html>
